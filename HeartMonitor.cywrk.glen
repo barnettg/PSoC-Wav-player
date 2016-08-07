@@ -13,20 +13,24 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HeartMonitor\HeartMonitor\Source Files">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HeartMonitor\HeartMonitor\Header Files">
 <ExpandedNodeIds>
 <v>HeartMonitor</v>
 <v>HeartMonitor\HeartMonitor</v>
 <v>HeartMonitor\HeartMonitor\TopDesign</v>
 <v>HeartMonitor\HeartMonitor\HeartMonitor.cydwr</v>
 <v>HeartMonitor\HeartMonitor\Header Files</v>
+<v>HeartMonitor\HeartMonitor\Header Files\myDMA.h</v>
 <v>HeartMonitor\HeartMonitor\Header Files\myTimer.h</v>
 <v>HeartMonitor\HeartMonitor\Header Files\numbers.h</v>
 <v>HeartMonitor\HeartMonitor\Header Files\testSpeak.h</v>
+<v>HeartMonitor\HeartMonitor\Header Files\version.h</v>
 <v>HeartMonitor\HeartMonitor\Source Files</v>
 <v>HeartMonitor\HeartMonitor\Source Files\main.c</v>
+<v>HeartMonitor\HeartMonitor\Source Files\myDMA.c</v>
 <v>HeartMonitor\HeartMonitor\Source Files\myTimer.c</v>
 <v>HeartMonitor\HeartMonitor\Source Files\testSpeak.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\AudioOut</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\AudioOut\AudioOut.c</v>
@@ -60,6 +64,18 @@
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\DMA_1</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\DMA_1\DMA_1_dma.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\DMA_1\DMA_1_dma.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\DMA_2</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\DMA_2\DMA_2_dma.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\DMA_2\DMA_2_dma.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_DMA_1</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_DMA_1\isr_DMA_1.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_DMA_1\isr_DMA_1.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_DMA_2</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_DMA_2\isr_DMA_2.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_DMA_2\isr_DMA_2.h</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_Timer</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_Timer\isr_Timer.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\isr_Timer\isr_Timer.h</v>
@@ -75,6 +91,14 @@
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Opamp_1\Opamp_1.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Opamp_1\Opamp_1.h</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Opamp_1\Opamp_1_PM.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_1</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_1\Pin_1.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_1\Pin_1.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_1\Pin_1_aliases.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_2</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_2\Pin_2.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_2\Pin_2.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_2\Pin_2_aliases.h</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_LED1</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_LED1\Pin_LED1.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_LED1\Pin_LED1.h</v>
@@ -83,6 +107,10 @@
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_LED2\Pin_LED2.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_LED2\Pin_LED2.h</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Pin_LED2\Pin_LED2_aliases.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\PWM_DMA_Timing</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\PWM_DMA_Timing\PWM_DMA_Timing.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\PWM_DMA_Timing\PWM_DMA_Timing.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\PWM_DMA_Timing\PWM_DMA_Timing_PM.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Timer_1</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Timer_1\Timer_1.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Timer_1\Timer_1.h</v>
@@ -115,14 +143,47 @@
 <v>HeartMonitor\HeartMonitor\TopDesign</v>
 <v>HeartMonitor\HeartMonitor\HeartMonitor.cydwr</v>
 <v>HeartMonitor\HeartMonitor\Header Files</v>
+<v>HeartMonitor\HeartMonitor\Header Files\myDMA.h</v>
 <v>HeartMonitor\HeartMonitor\Header Files\myTimer.h</v>
 <v>HeartMonitor\HeartMonitor\Header Files\numbers.h</v>
 <v>HeartMonitor\HeartMonitor\Header Files\testSpeak.h</v>
+<v>HeartMonitor\HeartMonitor\Header Files\version.h</v>
 <v>HeartMonitor\HeartMonitor\Source Files</v>
 <v>HeartMonitor\HeartMonitor\Source Files\main.c</v>
+<v>HeartMonitor\HeartMonitor\Source Files\myDMA.c</v>
 <v>HeartMonitor\HeartMonitor\Source Files\myTimer.c</v>
 <v>HeartMonitor\HeartMonitor\Source Files\testSpeak.c</v>
 <v>HeartMonitor\HeartMonitor\Generated_Source</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\AudioOut</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\AudioOut\AudioOut.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\AudioOut\AudioOut.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\AudioOut\AudioOut_aliases.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Clock_Timer</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Clock_Timer\Clock_Timer.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\Clock_Timer\Clock_Timer.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>HeartMonitor\HeartMonitor\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -159,15 +220,24 @@
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\cyPm.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\CySpc.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\cyutils.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\DMA_1_dma.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\DMA_2_dma.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\isr_DMA_1.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\isr_DMA_2.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\LCD_Char.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\LCD_Char_PM.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\main.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\myDMA.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\myTimer.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Opamp_1.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Opamp_1_PM.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_1.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_2.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_LED1.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_LED2.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\PWM_DMA_Timing.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\PWM_DMA_Timing_PM.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\testSpeak.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Timer_1.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Timer_1_PM.lst</v>
@@ -199,21 +269,34 @@
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\cyPm.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\CySpc.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\cyutils.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\DMA_1_dma.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\DMA_2_dma.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\isr_DMA_1.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\isr_DMA_2.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\LCD_Char.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\LCD_Char_PM.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\main.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\myDMA.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\myTimer.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Opamp_1.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Opamp_1_PM.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_1.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_2.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_LED1.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Pin_LED2.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\PWM_DMA_Timing.lst</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\PWM_DMA_Timing_PM.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\testSpeak.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Timer_1.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\Timer_1_PM.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\VDAC8.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\Listing Files\VDAC8_PM.lst</v>
 <v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\HeartMonitor.elf</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\HeartMonitor.hex</v>
+<v>HeartMonitor\HeartMonitor\CortexM3\ARM_GCC_484\Debug\HeartMonitor.map</v>
+<v>HeartMonitor\HeartMonitor\HeartMonitor.gpdsc</v>
+<v>HeartMonitor\HeartMonitor\HeartMonitor.rpt</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -231,9 +314,12 @@
 <v>HeartMonitor\HeartMonitor\System Reference Guides\cy_boot_v5_10</v>
 <v>HeartMonitor\HeartMonitor\CharLCD_v2_0</v>
 <v>HeartMonitor\HeartMonitor\cy_clock_v2_20</v>
+<v>HeartMonitor\HeartMonitor\cy_constant_v1_0</v>
+<v>HeartMonitor\HeartMonitor\cy_dma_v1_70</v>
 <v>HeartMonitor\HeartMonitor\cy_isr_v1_70</v>
 <v>HeartMonitor\HeartMonitor\cy_pins_v2_10</v>
 <v>HeartMonitor\HeartMonitor\OpAmp_v1_90</v>
+<v>HeartMonitor\HeartMonitor\PWM_v3_30</v>
 <v>HeartMonitor\HeartMonitor\Timer_v2_60</v>
 <v>HeartMonitor\HeartMonitor\VDAC8_v1_90</v>
 <v>HeartMonitor\HeartMonitor\ZeroTerminal</v>
@@ -247,9 +333,12 @@
 <v>HeartMonitor\HeartMonitor\System Reference Guides\cy_boot_v5_10</v>
 <v>HeartMonitor\HeartMonitor\CharLCD_v2_0</v>
 <v>HeartMonitor\HeartMonitor\cy_clock_v2_20</v>
+<v>HeartMonitor\HeartMonitor\cy_constant_v1_0</v>
+<v>HeartMonitor\HeartMonitor\cy_dma_v1_70</v>
 <v>HeartMonitor\HeartMonitor\cy_isr_v1_70</v>
 <v>HeartMonitor\HeartMonitor\cy_pins_v2_10</v>
 <v>HeartMonitor\HeartMonitor\OpAmp_v1_90</v>
+<v>HeartMonitor\HeartMonitor\PWM_v3_30</v>
 <v>HeartMonitor\HeartMonitor\Timer_v2_60</v>
 <v>HeartMonitor\HeartMonitor\VDAC8_v1_90</v>
 <v>HeartMonitor\HeartMonitor\ZeroTerminal</v>
@@ -269,6 +358,9 @@
 <name v=".\HeartMonitor.cydsn\myTimer.c" />
 <name v=".\HeartMonitor.cydsn\HeartMonitor.cydwr" />
 <name v=".\HeartMonitor.cydsn\testSpeak.c" />
+<name v=".\HeartMonitor.cydsn\myDMA.h" />
+<name v=".\HeartMonitor.cydsn\myDMA.c" />
+<name v=".\HeartMonitor.cydsn\version.h" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />

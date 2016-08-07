@@ -5,15 +5,19 @@
 #include <project.h>
 #include "myTimer.h"
 #include "testSpeak.h"
+#include "myDMA.h"
+
 int main()
 {
-    uint16 i=0;
+    //uint16 i=0;
     Opamp_1_Start();
     VDAC8_Start();
     LCD_Char_Start();
     Timer_1_Start();
     Clock_Timer_Start();
     InitTiming();
+    DMA_Config();
+    PWM_DMA_Timing_Start();
 
     
     CyGlobalIntEnable; /* Enable global interrupts. */
